@@ -1,0 +1,75 @@
+2024-06-09 15:42:17,137 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Fredrik 'Freddan' Lundell booked a trip to Lisbon, Portugal.
+
+2024-06-09 15:50:44,914 * INFO * com.freddan.travels.services.BookingService * create * 
+Admin added a new destination.
+Hotel: das boot.
+Country: Switzerland.
+City: Wien.
+
+2024-06-09 15:51:01,174 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Mike 'Iron Mike' Tyson booked a trip to Wien, Switzerland.
+
+2024-06-09 15:57:23,567 * INFO * com.freddan.travels.services.BookingService * create * 
+Admin added a new destination.
+Hotel: das boot.
+Country: Switzerland.
+City: Wien.
+
+2024-06-09 15:57:31,265 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Mike 'Iron Mike' Tyson booked a trip to Wien, Switzerland.
+
+2024-06-09 15:57:53,349 * INFO * com.freddan.travels.services.BookingService * delete * 
+Admin deleted Booking with ID: 3.
+
+2024-06-09 17:19:43,758 * INFO * com.freddan.travels.services.BookingService * create * 
+Admin added a new destination.
+Hotel: das boot.
+Country: Switzerland.
+City: Wien.
+
+2024-06-09 17:20:22,297 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Mike 'Iron Mike' Tyson booked a trip to Wien, Switzerland.
+
+2024-06-09 17:20:41,358 * INFO * com.freddan.travels.services.BookingService * delete * 
+Admin deleted Booking with ID: 3.
+
+2024-06-09 17:20:41,362 * INFO * com.freddan.travels.services.BookingService * deleteTripWithBookings * 
+Admin deleted Trip with ID: 3.
+
+2024-06-09 17:20:43,278 * ERROR * com.freddan.travels.services.BookingService * deleteTripWithBookings * 
+ERROR: Admin tried to delete Trip but provided Trip ID does not exist.
+Provided Trip ID: 3.
+
+2024-06-09 17:40:10,139 * INFO * com.freddan.travels.services.BookingService * create * 
+Admin added a new destination.
+Hotel: das boot.
+Country: Switzerland.
+City: Wien.
+
+2024-06-09 17:40:33,974 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Mike 'Iron Mike' Tyson booked a trip to Wien, Switzerland.
+
+2024-06-09 17:41:00,436 * INFO * com.freddan.travels.services.BookingService * update * 
+Admin updated Trip ID: 3 was updated. Changed Country to: Norway.
+Changed City to: Oslo.
+
+2024-06-09 17:41:28,134 * INFO * com.freddan.travels.services.BookingService * updateBooking * 
+Booking ID: 3 was updated. 
+Changed Customer to ID: 1.
+Changed Trip to ID: 2.
+
+2024-06-09 17:45:14,610 * INFO * com.freddan.travels.services.BookingService * create * 
+Admin added a new destination.
+Hotel: das boot.
+Country: Switzerland.
+City: Wien.
+
+2024-06-09 17:45:19,007 * INFO * com.freddan.travels.services.BookingService * createBooking * 
+Customer Mike 'Iron Mike' Tyson booked a trip to Wien, Switzerland.
+
+2024-06-09 17:45:25,208 * INFO * com.freddan.travels.services.BookingService * updateBooking * 
+Booking ID: 3 was updated. 
+Changed Customer to ID: 1.
+Changed Trip to ID: 2.
+
